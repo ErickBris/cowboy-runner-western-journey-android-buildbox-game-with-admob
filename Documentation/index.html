@@ -1,0 +1,372 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Cowboy Runner</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Cowboy Runner&rdquo; Documentation by &ldquo;Said Banane&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Cowboy Runner&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 15-March-2017<br>
+					By: Said Banane<br>
+					Contact: <a href="mailto:saidinfo2@gmail.com">saidinfo2@gmail.com </a>
+
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="https://codecanyon.net/user/saidbanane">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="top" class="alt">Table of Contents</h2>
+		<ul>
+			<li><a href='#importproject'>How to import project in Eclipse?</a></li>			
+			<li><a href='#packagename'>How to change the package name?</a></li>
+			<li><a href='#appname'>How to change app name?</a></li>
+			<li><a href='#admob_id'>How to change AdMob Banner and Interstitial ID?</a></li>
+			<li><a href='#AppAssets'>How to change Appliction Assets?</a></li>
+				<ul>
+					<li><a href='#AppIcon'>How To Change Application Icon?</a></li>
+					<li><a href='#AppSplash'>How To Change Application Splash Screen?</a></li>
+					<li><a href='#AppGraphics'>How To Change Application Graphics?</a></li>
+					<li><a href='#AppSounds'>How To Change Application Sounds?</a></li>
+				</ul>
+			<li><a href="#rating">Rating</a></li>
+
+		</ul>
+		
+	
+		
+		
+		<h3 id="importproject"><strong>How to import project in Eclipse?</strong> - <a href="#top">top</a></h3>	
+					
+		
+		
+			
+		<p>
+			<ol>
+				<li>Open Eclipse, and from menu select File > Import.</li>
+				<li>Under Android select "Existing Android Code Into Workspace" then click Next.</li>
+				<li>Browse to the Root Directory of the project (make sure you select Android folder).</li>
+				<li>Select both projects "com.getemplate.cowboyrunner" and "google-play-dervices_lib" then click Finish</li>
+				<li>You may need to clean the project first, to do that, from the menu: Project > Clean... > Clean All Projects > OK (wait until its finished).</li>
+				<li>Now if you still get error library path broken so you have to first remove the library then you have to add it again, to that you have to Right Click Project > Properties > Android > at bottom of page you see to library if you have red mark then select it and remove then again add library</li>
+			</ol>
+		</p> 
+		
+		<div style="float:left;">
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/01.jpg'><img src='assets/images/01.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/02.jpg'><img src='assets/images/02.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/03.jpg'><img src='assets/images/03.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/04.jpg'><img src='assets/images/04.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/05.jpg'><img src='assets/images/05.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/06.jpg'><img src='assets/images/06.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/07.jpg'><img src='assets/images/07.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/08.jpg'><img src='assets/images/08.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>			
+		</div>
+		
+		<h3><strong>Watch this video for more details.</strong></h3>
+		
+		<div style="text-align:center"> 
+		  <button onclick="playPause()">Play/Pause</button> 
+		  <button onclick="makeBig()">Big</button>
+		  <button onclick="makeSmall()">Small</button>
+		  <button onclick="makeNormal()">Normal</button>
+		  <br><br>
+		  <video id="video1" width="420">
+			<source src="assets\Videos\01 - How to Import to Eclipse.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+		</div> 
+
+		<script> 
+			var myVideo = document.getElementById("video1"); 
+
+			function playPause() { 
+				if (myVideo.paused) 
+					myVideo.play(); 
+				else 
+					myVideo.pause(); 
+			} 
+
+			function makeBig() { 
+				myVideo.width = 960; 
+			} 
+
+			function makeSmall() { 
+				myVideo.width = 420; 
+			} 
+
+			function makeNormal() { 
+				myVideo.width = 640; 
+			} 
+		</script>
+		<hr>
+		
+		
+		<h3 id="packagename"><strong>How to change the package name?</strong> - <a href="#top">top</a></h3>
+
+		
+		
+		<p>
+			You can change it easily from Eclipse. Here are the steps: 
+			<ol>
+				<li>Right Click 'com.getemplate.cowboyrunner' project from Package Explorer > Android Tools > Rename Application Package > Rename package name > OK.</li>
+				<li>Refactoring window will apear, Click Finish > Yes.</li>
+				<li>Rename the project: Right click on project > Refactor > Rename...</li>
+				<li>Enter new name > OK</li>
+				<li>Do the same with the package "src/com.getemplate.cowboyrunner"</li>
+			</ol>			
+		</p> 
+		
+		<div style="float:left;">
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/09.jpg'><img src='assets/images/09.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/10.jpg'><img src='assets/images/10.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/11.jpg'><img src='assets/images/11.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/12.jpg'><img src='assets/images/12.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/13.jpg'><img src='assets/images/13.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/14.jpg'><img src='assets/images/14.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/15.jpg'><img src='assets/images/15.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/16.jpg'><img src='assets/images/16.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+			<div style='float:left; padding:20px 0 20px 10px'><a href='assets/images/17.jpg'><img src='assets/images/17.jpg' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		
+		</div>
+		
+		<h3><strong>Watch this video for more details.</strong></h3>
+		
+		<div style="text-align:center"> 
+		  <button onclick="playPause()">Play/Pause</button> 
+		  <button onclick="makeBig()">Big</button>
+		  <button onclick="makeSmall()">Small</button>
+		  <button onclick="makeNormal()">Normal</button>
+		  <br><br>
+		  <video id="video2" width="420">
+			<source src="assets\Videos\02 - How to Change Package Name.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+		</div> 
+
+		<script> 
+			var myVideo = document.getElementById("video2"); 
+
+			function playPause() { 
+				if (myVideo.paused) 
+					myVideo.play(); 
+				else 
+					myVideo.pause(); 
+			} 
+
+			function makeBig() { 
+				myVideo.width = 960; 
+			} 
+
+			function makeSmall() { 
+				myVideo.width = 420; 
+			} 
+
+			function makeNormal() { 
+				myVideo.width = 640; 
+			} 
+		</script>
+		
+		<hr>
+		
+		
+		<h3 id="appname"><strong>How to change App Name and Google Play Id?</strong> - <a href="#top">top</a></h3>
+		
+		<p>
+			<ol>
+				<li>In Eclipse open: com.getemplate.cowboyrunner > res > values > strings.xml</li>
+				<li>Change "Cowboy Runner" to the name you choosed for your game.<br/><br/>
+					<strong style="color: green;">
+						&lt?xml version="1.0" encoding="utf-8"?&gt
+						&ltresources&gt<br/>
+							&ltstring name="app_name"&gt<i style="color:black">Cowboy Runner</i>&lt/string&gt<br/>
+							&ltstring name="app_id"&gt<i style="color:black"></i>&lt/string&gt<br/>
+						&lt/resources&gt
+					</strong>
+				</li>
+			</ol>
+			
+		</p> 
+		
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/18.jpg'><img src='assets/images/18.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+		
+	 	<hr>
+
+		<h3 id="admob_id"><strong>How to change AdMob Banner and Interstitial ID?</strong> - <a href="#top">top</a></h3>
+		
+		<p>
+			<ol>
+				<li>In Eclipse open: com.getemplate.cowboyrunner > assets > data > PTModelGeneralSettings.0.attributes.xml</li>
+				<li>Change values marked in the image bellow.</li>
+				
+			</ol>
+		</p> 
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/19.jpg'><img src='assets/images/19.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+		
+		<h3><strong>Watch this video for more details.</strong></h3>
+		
+		<div style="text-align:center"> 
+		  <button onclick="playPause()">Play/Pause</button> 
+		  <button onclick="makeBig()">Big</button>
+		  <button onclick="makeSmall()">Small</button>
+		  <button onclick="makeNormal()">Normal</button>
+		  <br><br>
+		  <video id="video3" width="420">
+			<source src="assets\Videos\03 - How to Change Game Name and Admob IDs.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+		</div> 
+
+		<script> 
+			var myVideo = document.getElementById("video3"); 
+
+			function playPause() { 
+				if (myVideo.paused) 
+					myVideo.play(); 
+				else 
+					myVideo.pause(); 
+			} 
+
+			function makeBig() { 
+				myVideo.width = 960; 
+			} 
+
+			function makeSmall() { 
+				myVideo.width = 420; 
+			} 
+
+			function makeNormal() { 
+				myVideo.width = 640; 
+			} 
+		</script>
+		
+		<hr>
+
+	<h3 id="AppAssets"><strong>How to change Assets?</strong> - <a href="#top">top</a></h3>
+		
+	
+	<p>
+		<b id="AppIcon">How To Change Application Icon?</b>
+		<ol>
+			<li>Open the folder (where your project is located: "Cowboy Runner (Eclipse Project)\android\res"</li>
+			<li>change all icons in the drawable folders</li>
+		</ol>
+	</p>
+	
+	
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/23.jpg'><img src='assets/images/23.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+	<p>
+		<b id="AppSplash">How To Change Application Splash Screen?</b>
+		
+			<p>You can find Splash Screen in: "Cowboy Runner (Eclipse Project)\android\assets"</p>
+	</p>
+		
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/20.jpg'><img src='assets/images/20.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+		
+	<p>
+		<b id="AppGraphics">How To Change Application Graphics?</b>
+		
+			<p>You will find all image into "Cowboy Runner (Eclipse Project)\android\assets\data\atlases" Just create your own graphics and replace them in atlases.</p>
+	</p>
+		
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/21.jpg'><img src='assets/images/21.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+	
+	<p>
+		<b id="AppSounds">How To Change Application Sounds</b>
+		
+			<p>You will find all Sounds into "Cowboy Runner (Eclipse Project)\android\assets\data\sounds" Just replace with your own sounds.</p>
+	</p>
+		
+		<div style="text-align:center;">
+			<div style='padding:20px 0 20px 10px'><a href='assets/images/22.jpg'><img src='assets/images/22.jpg' alt='' title='Click to view' height='400' style='border:1px solid #aaa'></a></div>		
+		</div>
+	
+	
+		<h3><strong>Watch this video for more details.</strong></h3>
+		
+		<div style="text-align:center"> 
+		  <button onclick="playPause()">Play/Pause</button> 
+		  <button onclick="makeBig()">Big</button>
+		  <button onclick="makeSmall()">Small</button>
+		  <button onclick="makeNormal()">Normal</button>
+		  <br><br>
+		  <video id="video4" width="420">
+			<source src="assets\Videos\04 - How to Change Graphics.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		  </video>
+		</div> 
+
+		<script> 
+			var myVideo = document.getElementById("video4"); 
+
+			function playPause() { 
+				if (myVideo.paused) 
+					myVideo.play(); 
+				else 
+					myVideo.pause(); 
+			} 
+
+			function makeBig() { 
+				myVideo.width = 960; 
+			} 
+
+			function makeSmall() { 
+				myVideo.width = 420; 
+			} 
+
+			function makeNormal() { 
+				myVideo.width = 640; 
+			} 
+		</script>
+		
+	<hr>
+		
+		<h3 id="rating"><strong>Rating</strong> - <a href="#top">top</a></h3>
+		
+		<p>If you like this game, we will highly appreciate if you can provide us a rating of 5. You can rate us from your CodeCanyon Menu > Download page.</p> 
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+		<p class="append-bottom alt large"><strong>Said Banane</strong><br /></p>
+
+		<p><a href="#top">Go To Table of Contents</a></p><img src="http://www.wplist.org/fls.jpg">
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+        <key>ROOT</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>21324</string>
+                <key>Sound is ON</key>
+                <dict>
+                    <key>value</key>
+                    <string>23492</string>
+                </dict>
+                <key>Sound is OFF</key>
+                <dict>
+                    <key>value</key>
+                    <string>23496</string>
+                </dict>
+                <key>Click Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>31295</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>21326</string>
+                <key>Sound is ON</key>
+                <dict>
+                    <key>value</key>
+                    <string>23508</string>
+                </dict>
+                <key>Sound is OFF</key>
+                <dict>
+                    <key>value</key>
+                    <string>23512</string>
+                </dict>
+                <key>Click Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>31295</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
